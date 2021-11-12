@@ -17,4 +17,10 @@ public class RegexUserRegistration {
         String lastName = scanner.next();
         userDetails.lastName(lastName);
     }
+
+    public void userEmailId() {
+        System.out.println("Enter Your EmailId : ");
+        String emailId = scanner.next();
+        userDetails.emailId(emailId);
+    }
 }
