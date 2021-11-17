@@ -27,6 +27,9 @@ public class RegexUserMain {
                 case 4 :
                     regexUserRegistration.userMobileNumber();
                     break;
+                case 5 :
+                    regexUserRegistration.userPassword();
+                    break;
                 case 0:
                     System.exit(0);
                     break;
